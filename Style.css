@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #navbar {
+    float: right;
+    font-size: 14px;
+  }
+  
+  #navbar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  div{
+    display: block;
+  }
+  
+  #LOG {
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  .URL {
+    color: #606060;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.URL a:hover {
+    text-decoration: underline;
+  }
+  
+  #LOG:hover {
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #LOG {
+    color: #fff;
+  }
+  
+  
+  .google_logo{
+    width: 100%;
+  }
+  
+  .google_logo #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .form{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form #searchform {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+  }
+  
+  .form #searchform:hover {
+  
+    box-shadow: 0 1px 6px #B6B1B2;
+    border-color: #EEE9EA;
+  }
+  
+  .buttons {
+    text-align: center;
+    padding-top: 30px;
+  
+  }
+  
+  .button {
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    height: 30px;
+    border: none;
+  }
+  
+  .button:hover {
+    border-width: thin;
+    border-color: #A0A0A0;
+    border-radius: 3px;
+    border: 1px solid #a5a5a5;
+  }
+  
+ 
+footer  {
+    background: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+  
+    
+    height:60px;
+  }
+  
+  
+ 
+  #footer{
+    border-top: solid 2px #e4e4e4;  
+
+  }
+  
+  footer ul li {
+    display: inline;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+ 
+  /******************************************************************************************/
+  
+  
